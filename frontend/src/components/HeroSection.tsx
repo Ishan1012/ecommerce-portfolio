@@ -37,7 +37,7 @@ const HeroSection = () => (
         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.5 }}
         className="mt-10 flex flex-col sm:flex-row gap-4"
       >
-        <a href="#contact">
+        <a href="/login">
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 gap-2 rounded-md px-8">
             Get Started <ArrowRight size={18} />
           </Button>
